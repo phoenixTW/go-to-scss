@@ -1,0 +1,36 @@
+{
+  "name": "go-to-scss",
+  "displayName": "Go to SCSS",
+  "version": "0.0.0",
+  "description": "Switch between the code and the stylesheet file",
+  "main": "./extension",
+  "homepage": "https://github.com/phoenixTW/go-to-scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phoenixTW/go-to-scss.git"
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "keywords": [
+    "scss",
+    "css",
+    "sass",
+    "less",
+    "switch"
+  ],
+  "author": {
+    "name": "Kaustav Chakraborty",
+    "email": "kaustavch@outlook.com",
+    "url": "https://iamkaustav.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^14.3.1",
+    "vscode": "^1.1.36"
+  }
+}
