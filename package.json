@@ -1,10 +1,11 @@
 {
   "name": "go-to-scss",
   "displayName": "Go to SCSS",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Switch between the code and the stylesheet file",
   "main": "./extension",
   "homepage": "https://github.com/phoenixTW/go-to-scss",
+  "publisher": "KaustavChakraborty",
   "repository": {
     "type": "git",
     "url": "https://github.com/phoenixTW/go-to-scss.git"
