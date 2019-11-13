@@ -16,6 +16,25 @@
   "engines": {
     "vscode": "^1.22.0"
   },
+  "activationEvents": [
+    "onCommand:extension.goToSCSS"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.goToSCSS",
+        "title": "Go to SCSS"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.goToSCSS",
+        "key": "ctrl+shift+c",
+        "mac": "cmd+shift+c",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
   "keywords": [
     "scss",
     "css",
@@ -28,6 +47,7 @@
     "email": "kaustavch@outlook.com",
     "url": "https://iamkaustav.com"
   },
+  "icon": "assets/icon.png",
   "license": "MIT",
   "devDependencies": {
     "standard": "^14.3.1",
